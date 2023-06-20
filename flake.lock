@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "nixpkgs-2023-06-17": {
+      "locked": {
+        "lastModified": 1687011986,
+        "narHash": "sha256-ZNSi/wBw12d7LO8YcZ4aehIlPp4lgSkKbrHaoF80IKI=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "2c09e8eb8717e240ef9c5727c1cc9186db9fb309",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "2c09e8eb8717e240ef9c5727c1cc9186db9fb309",
+        "type": "github"
+      }
+    },
+    "nixpkgs-2023-06-18": {
+      "locked": {
+        "lastModified": 1687042437,
+        "narHash": "sha256-aVWnabWwaJZqqdJk1zsWZqTXIYpsIwkULd03piuV5ps=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a7e89343414dcb3f635ea0d0dcc9311668600ead",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a7e89343414dcb3f635ea0d0dcc9311668600ead",
+        "type": "github"
+      }
+    },
+    "nixpkgs-21-05": {
+      "locked": {
+        "lastModified": 1659914493,
+        "narHash": "sha256-lkA5X3VNMKirvA+SUzvEhfA7XquWLci+CGi505YFAIs=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "022caabb5f2265ad4006c1fa5b1ebe69fb0c3faf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-21.05-darwin",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs-2023-06-17": "nixpkgs-2023-06-17",
+        "nixpkgs-2023-06-18": "nixpkgs-2023-06-18",
+        "nixpkgs-21-05": "nixpkgs-21-05"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
