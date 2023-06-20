@@ -1,7 +1,7 @@
 This is a simple test case to reproduce [NixOS/nixpkgs#238791].
 The flake provides several packages:
 
-[NixOS/nixpkgs#238791]: https://github.com/NixOS/nixpkgs/issues/238791.
+[NixOS/nixpkgs#238791]: https://github.com/NixOS/nixpkgs/issues/238791
 
 * `correct-apple-sdk`:
   Uses `darwin.apple_sdk.frameworks.CoreFoundation`
