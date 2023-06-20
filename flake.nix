@@ -14,8 +14,8 @@
         package = nixpkgs: settings:
           import ./. ({pkgs = nixpkgs.legacyPackages.${platform};} // settings);
       in {
-        crash = package inputs.nixpkgs-2023-06-18 {};
         correct-apple-sdk = package inputs.nixpkgs-2023-06-18 {useAppleSdk = true;};
+        crash = package inputs.nixpkgs-2023-06-18 {};
         incorrect-recent = package inputs.nixpkgs-2023-06-17 {};
         incorrect-old = package inputs.nixpkgs-21-05 {};
       });
